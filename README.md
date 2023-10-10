@@ -1,20 +1,20 @@
 # NgMatSearchBar
 
 The component creates a search-icon which expands a search-field on click. See the demo for the effect:
-![NgMatSearchBar demo](https://raw.githubusercontent.com/tommueller/ng-mat-search-bar/master/docs/demo.gif)
+![NgMatSearchBar demo](https://raw.githubusercontent.com/jifparent/ng-mat-search-bar/master/docs/demo.gif)
 
 ## Installation
 
 Install the dependency via npm:
 
 ```bash
-npm install ng-mat-search-bar --save
+npm install @jfparent/ng-mat-search-bar --save
 ```
 
 or yarn
 
 ```bash
-yarn add ng-mat-search-bar
+yarn add @jfparent/ng-mat-search-bar
 ```
 
 and import the module into your apps _app.module.ts_ like this:

@@ -1,6 +1,7 @@
 import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
 
 import { MatSearchBarComponent } from './mat-search-bar.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 describe('MatSearchBarComponent', () => {
   let component: MatSearchBarComponent;
@@ -8,7 +9,8 @@ describe('MatSearchBarComponent', () => {
 
   beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
-      declarations: [ MatSearchBarComponent ]
+      declarations: [MatSearchBarComponent],
+      imports: [BrowserAnimationsModule]
     })
     .compileComponents();
   }));
