@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { FormControl, Validators } from '@angular/forms';
+import { UntypedFormControl, Validators } from '@angular/forms';
 
 @Component({
   selector: 'app-root',
@@ -10,8 +10,8 @@ export class AppComponent {
   searchValue1 = '';
   searchValue2 = '';
 
-  control1 = new FormControl('', Validators.required);
-  control2 = new FormControl('', Validators.required);
+  control1 = new UntypedFormControl('', Validators.required);
+  control2 = new UntypedFormControl('', Validators.required);
 
   options: string[] = ['One', 'Two', 'Three'];
 }

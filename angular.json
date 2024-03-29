@@ -97,7 +97,6 @@
       }
     }
   },
-  "defaultProject": "ng-mat-search-bar",
   "schematics": {
     "@schematics/angular:component": {
       "prefix": "app",

@@ -15,7 +15,7 @@ import {
   Output,
   ViewChild
 } from '@angular/core';
-import { FormControl, NG_VALUE_ACCESSOR } from '@angular/forms';
+import { UntypedFormControl, NG_VALUE_ACCESSOR } from '@angular/forms';
 import { MatAutocomplete } from '@angular/material/autocomplete';
 import { AbstractControlValueAccessor } from '../util/abstract-value-accessor';
 import { MatFormFieldAppearance } from '@angular/material/form-field';
@@ -53,7 +53,7 @@ export class MatSearchBarComponent extends AbstractControlValueAccessor<string>
 
   @ViewChild('input') inputElement: ElementRef;
 
-  @Input() formControl: FormControl;
+  @Input() formControl: UntypedFormControl;
   @Input() matAutocomplete: MatAutocomplete;
   @Input() appearance: MatFormFieldAppearance = 'standard';
   @Input() placeholder = '';
