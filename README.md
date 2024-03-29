@@ -20,7 +20,7 @@ yarn add @jfparent/ng-mat-search-bar
 and import the module into your apps _app.module.ts_ like this:
 
 ```typescript
-import { NgMatSearchBarModule } from 'ng-mat-search-bar';
+import { NgMatSearchBarModule } from '@jfparent/ng-mat-search-bar';
 
 ...
 
