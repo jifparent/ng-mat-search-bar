@@ -55,7 +55,7 @@ export class MatSearchBarComponent extends AbstractControlValueAccessor<string>
 
   @Input() formControl: UntypedFormControl;
   @Input() matAutocomplete: MatAutocomplete;
-  @Input() appearance: MatFormFieldAppearance = 'standard';
+  @Input() appearance: MatFormFieldAppearance = 'fill';
   @Input() placeholder = '';
   @Input() alwaysOpen: boolean = false;
   @Output() onBlur = new EventEmitter<string>();
